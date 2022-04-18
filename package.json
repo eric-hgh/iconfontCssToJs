@@ -1,7 +1,7 @@
 {
-  "name": "iconfont-to-json",
+  "name": "iconfontCssToJs",
   "version": "1.0.1",
-  "description": "转换iconfont字体图标10进制json文件",
+  "description": "iconfont css文件转JS文件",
   "main": "index.js",
   "bin": {
     "iconfonttojson": "index.js"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jon-Millent/iconfont-to-json.git"
+    "url": "git+https://github.com/eric-hgh/iconfontCssToJs.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jon-Millent/iconfont-to-json/issues"
+    "url": "https://github.com/eric-hgh/iconfontCssToJs/issues"
   },
-  "homepage": "https://github.com/Jon-Millent/iconfont-to-json#readme",
+  "homepage": "https://github.com/eric-hgh/iconfontCssToJs#readme",
   "dependencies": {
     "css": "^2.2.4"
   }

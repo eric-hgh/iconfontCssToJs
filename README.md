@@ -4,19 +4,19 @@
 # Install
 
 ```
-npm i iconfont-to-json -g
+npm i 
 ```
 
 # Use
 
 ```
-iconfonttojson [input iconfont.css path] [output file name]
+node index.js [input iconfont.css path] [output file name]
 ```
 
 # Example
 
 ```
-iconfonttojson ./iconfont.css
+node index.js ./iconfont.css iconfont.js
 ```
 
 ```css
@@ -61,11 +61,11 @@ iconfonttojson ./iconfont.css
 return
 ```js
 export default {
-  "bqxin": 59019,
-  "sousuo-copy": 58923,
-  "pinglun": 58938,
-  "jia": 58930,
-  "camera_icon": 58967,
-  "tiaoguofenxiang": 59260
+  "bqxin": "\e68b",
+  "sousuo-copy": "\e62b",
+  "pinglun": "\e63a",
+  "jia": "\e632",
+  "camera_icon": "\e657",
+  "tiaoguofenxiang": "\e77c"
 }
 ```
